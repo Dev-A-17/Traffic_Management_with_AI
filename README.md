@@ -33,7 +33,8 @@ This project aims to optimize traffic flow and reduce congestion using AI to ana
     ```
 
 3. **Download the YOLO model files**:
-    Place `carrotsAi.pt` and `yolov8s.pt` in the root directory of the project. 
+   Download the model files from the links provided in `DownloadableContent.txt`
+   Place `carrotsAi.pt` and `yolov8s.pt` in the root directory of the project. 
 
 ## Usage
 1. **Run the Flask application**:
