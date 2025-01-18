@@ -9,10 +9,6 @@ env/
 # Ignore uploads directory
 uploads/
 
-# Ignore model files if they are too large
-carrotsAi.pt
-yolov8s.pt
-
 # Ignore system files
 .DS_Store
 Thumbs.db
