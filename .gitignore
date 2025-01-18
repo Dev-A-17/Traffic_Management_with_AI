@@ -1,14 +1,4 @@
-# Ignore Python bytecode files
-*.pyc
-__pycache__/
-
 # Ignore virtual environment directories
 venv/
 env/
 
-# Ignore uploads directory
-uploads/
-
-# Ignore system files
-.DS_Store
-Thumbs.db
