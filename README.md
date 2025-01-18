@@ -12,13 +12,11 @@ This project aims to optimize traffic flow and reduce congestion using AI to ana
 ![image](https://github.com/user-attachments/assets/55748ac5-c729-4304-8a65-62080a293b1a)
 ![image](https://github.com/user-attachments/assets/aba164b9-756b-4d3e-9e98-37d12cc82c59)
 
-
-
 ## Technology Stack
 - Flask
 - YOLO (You Only Look Once)
 - OpenCV
-- Python
+- Python 3.11
 
 ## Installation
 1. **Clone the repository**:
@@ -32,14 +30,16 @@ This project aims to optimize traffic flow and reduce congestion using AI to ana
     pip install -r requirements.txt
     ```
 
-3. **Download the YOLO model files**:
-   Download the model files from the links provided in `DownloadableContent.txt`
+3. **Download the YOLO model files**:   
    Place `carrotsAi.pt` and `yolov8s.pt` in the root directory of the project. 
+
+## Special Note
+This project requires **Python 3.11** because YOLO is part of Ultralytics, which uses PyTorch. PyTorch has optimal support and compatibility with Python 3.11, ensuring that all functionalities of the model are fully utilized.
 
 ## Usage
 1. **Run the Flask application**:
     ```bash
-    python app.py
+    py -3.11 app.py
     ```
 
 2. **Access the application**:
